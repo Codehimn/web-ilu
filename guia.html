@@ -5,183 +5,57 @@
 	<meta charset="utf-8">
 	<title> Ingress: Enlightened Baleares </title>
 
-	<style>
+	<link rel="stylesheet" href="css/guia.css" type="text/css" media="all" />
 
-	/*
-	  COLORES
+	</head>
+	<body>
+		<header>
+			<h1 class="logo"><img src="imagenes/logosmall.png" alt="logo enlightened baleares"></h1>
+			<div class="menus">
+				<nav>
+					<ul class="botonescojones">
+						<li class="botonMenu"><a href="" class="botonGuia">Guia de inicio</a></li>
+						<li class="botonMenu"><a href="" class="boton">enlightened baleares</a></li>
+						<li class="botonMenu"><a href="" class="boton">ingress baleares</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-	  naranja: FF8947, rgba(255, 137, 71, 1); ;
+		<article>
+			<h1 class="guiajuego"> Guía del juego </h1>
 
-	  azul oscuro para fondo: #16494A, rgba(22, 73, 74, 1); ;
-
-	  azul clarito para textos y bordes: #10C8D3, rgba(16, 200, 74, 1); ;
-
-	*/
-
-	body{
-		font-family: 'Coda', cursive;
-		background: black;
-		color: rgba(0, 255, 0, 1);
-		text-align: center;
-		max-width: 900px;
-		margin: 0 auto;
-	}
-
-	header{
-		margin-bottom: 0;
-	}
-
-	h1{
-		padding: 10px 0 10px 0;
-		margin: 0 -10px 0 -10px;
-
-	}
-
-	.logo{
-		text-align: left;
-	}
-
-	.guiajuego{
-		font-size: 48px;
-		margin: -10px 0 -10px 0; // margen de separacion de guía del juego
-
-	}
-
-	h2{
-		background: rgba(22, 73, 74, 0.7);
-		color: rgba(0, 255, 0, 1);
-
-	}
-
-	.primerH2{
-		margin-left: -10px;
-		margin-right: -10px;
-	}
-
-	.botonMenu{
-		display: inline;
-	}
-
-	nav{
-		//background: rgba(18, 58, 58, 1);
-		border-radius: 0.2em;
-	}
-
-	a.boton{
-
-		display: inline-block;
-		text-decoration: none;
-		text-align: center;
-		width: 297px;
-		height: 25px;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-		background: rgba(18, 58, 58, 1);
-		color: rgba(0, 255, 0, 1);
-		transition-property: background;
-		transition-duration: 0.7s;
-	}
-
-	a.botonGuia{
-		display: inline-block;
-		text-decoration: none;
-		text-align: center;
-		width: 297px;
-		height: 25px;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-		background: rgba(22, 73, 74, 0.3);
-		color: rgba(0, 255, 0, 1);
-		transition-property: background;
-		transition-duration: 0.7s;
-	}
+			<h2>¿De qué va el juego?</h2>
 
 
+			<h2>Cuando encuentras un portal.</h2>
 
-	a.boton:hover, a.boton:focus{
-		background-color: rgba(0, 255, 0, 1);
-		color: black;
-	}
+			<p>Cuando encuentras un portal y pinchas sobre él en la pantalla, aparecen los siguientes botones: <span class="menusIngame">“Hack”</span>, <span class="menusIngame">“Deploy”</span>, <span class="menusIngame">“Recharge”</span>, <span class="menusIngame">“Upgrade”</span>, y <span class="menusIngame">“Target”</span>. Para poder interactuar completamente con el portal debes de estar a una distancia minima de 40 metros.</p>
 
-	.botonescojones{
-		padding:0;
-	}
+			<p>Cuando encuentras un portal y pinchas sobre él en la pantalla, aparecen los siguientes botones: “Hack”, “Deploy”, “Recharge”, “Upgrade”, y “Target”. Para poder interactuar completamente con el portal debes de estar a una distancia mínima de 40 metros.</p>
 
+			<p><dfn>HACK</dfn>: Puedes hackear cualquier portal (amistoso, neutral o enemigo), mientras esté en tu rango. Normalmente el portal te dará algunos ítems. Si intentas hackear un portal enemigo, puedes no conseguir items y el portal te atacará, quitandote una cantidad de xm dependiendo de su nivel), pero a cambio consigues 100 AP.</p>
 
-	article{
-      max-width: 877px;
-      padding: 10px;
-      margin: 0 auto;
-      margin-top: -16px;
-      background: rgba(22, 73, 74, 0.3);
+			<p>En principio puedes hackear un portal un total de 4 veces en un periodo de 4 horas. Si intentas hackeralo una 5ª vez te dará un mensaje de que el portal esta quemado (burnout). Tampoco puedes hackear las 4 veces seguidas, necesitaras que pasen 300 segundos (5 minutos) entre cada hackeo. En resumen, puedes hackear un portal 4 veces en un periodo de 15 minutos antes de quemarlo.</p>
 
-    }
+			<p>Sin embargo estos valores no son absolutos, el mod "multi-hack" permite que un portal pueda ser hackeando más de 4 veces antes de ser quemado. También existe otro mod llamado "heat-sink" que reduce el <p>tiempo de enfriamiento entre hackeos.</p>
 
-    p{
-    	text-align: justify;
-    	color: rgba(180, 255, 180, 1);
-    }
+			<p>Hackear un portal cuesta XM dependiendo del portal del mismo.</p>
 
-    .menusIngame{
-    	color: rgba(180, 255, 230, 1);
-    }
+			<p>Los ítems que obtendrás al realizar un hackeo varían según el nivel del portal y tu propio portal:</p>
 
-    dfn{
-    	color: rgba(180, 255, 230, 1);
-    	font-style: bold;
-    }
+			<p>Los ítems que obtendrás serán del mismo nivel que el portal, y de manera menos común obtendrás ítems hasta dos niveles por encima o por debajo del nivel del portal.</p>
+
+			<h2>Atacar portales enemigos.</h2>
 
 
-	</style>
-</head>
-<body>
-<header>
-	<h1 class="logo"><img src="imagenes/logosmall.png" alt="logo enlightened baleares"></h1>
-	<div class="menus">
-		<nav>
-			<ul class="botonescojones">
-				<li class="botonMenu"><a href="" class="botonGuia">Guia de inicio</a></li>
-				<li class="botonMenu"><a href="" class="boton">enlightened baleares</a></li>
-				<li class="botonMenu"><a href="" class="boton">ingress baleares</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
+			<h2>“Media”</h2>
 
-<article>
-<h1 class="guiajuego"> Guía del juego </h1>
+			<p>Cuando hackeas portales, a veces encuentras unos ítems llamados “Media”. Si los abres te llevan a alguna pista del tipo de las que aparecen en la web de Niantic Project. Se supone que si los lees detenidamente (están en inglés, por supuesto), puedes encontrar un código de acceso. Si metes ese código de acceso en la caja que aparece abajo cuando te metes en el menú Ops, consigues algo de XM, AP y algunos ítems. Puedes compartir estos códigos con tus amigos y compañeros para que ellos también consigan recompensas.</p>
 
-<h2>¿De qué va el juego?</h2>
+			<p>Los códigos podéis introducirlos a través de la app de vuestro smartphone, en la pestaña <span class="menusIngame">PASSCODE</span> del menu <span class="menusIngame">OPS</span>.</p>
 
+			<h2>Cómo crear portales.</h2>
 
-<h2>Cuando encuentras un portal.</h2>
-
-<p>Cuando encuentras un portal y pinchas sobre él en la pantalla, aparecen los siguientes botones: <span class="menusIngame">“Hack”</span>, <span class="menusIngame">“Deploy”</span>, <span class="menusIngame">“Recharge”</span>, <span class="menusIngame">“Upgrade”</span>, y <span class="menusIngame">“Target”</span>. Para poder interactuar completamente con el portal debes de estar a una distancia minima de 40 metros.</p>
-
-<p>Cuando encuentras un portal y pinchas sobre él en la pantalla, aparecen los siguientes botones: “Hack”, “Deploy”, “Recharge”, “Upgrade”, y “Target”. Para poder interactuar completamente con el portal debes de estar a una distancia mínima de 40 metros.</p>
-
-<p><dfn>HACK</dfn>: Puedes hackear cualquier portal (amistoso, neutral o enemigo), mientras esté en tu rango. Normalmente el portal te dará algunos ítems. Si intentas hackear un portal enemigo, puedes no conseguir items y el portal te atacará, quitandote una cantidad de xm dependiendo de su nivel), pero a cambio consigues 100 AP.</p>
-
-<p>En principio puedes hackear un portal un total de 4 veces en un periodo de 4 horas. Si intentas hackeralo una 5ª vez te dará un mensaje de que el portal esta quemado (burnout). Tampoco puedes hackear las 4 veces seguidas, necesitaras que pasen 300 segundos (5 minutos) entre cada hackeo. En resumen, puedes hackear un portal 4 veces en un periodo de 15 minutos antes de quemarlo.</p>
-
-<p>Sin embargo estos valores no son absolutos, el mod "multi-hack" permite que un portal pueda ser hackeando más de 4 veces antes de ser quemado. También existe otro mod llamado "heat-sink" que reduce el <p>tiempo de enfriamiento entre hackeos.</p>
-
-<p>Hackear un portal cuesta XM dependiendo del portal del mismo.</p>
-
-<p>Los ítems que obtendrás al realizar un hackeo varían según el nivel del portal y tu propio portal:</p>
-
-<p>Los ítems que obtendrás serán del mismo nivel que el portal, y de manera menos común obtendrás ítems hasta dos niveles por encima o por debajo del nivel del portal.</p>
-
-<h2>Atacar portales enemigos.</h2>
-
-
-<h2>“Media”</h2>
-
-<p>Cuando hackeas portales, a veces encuentras unos ítems llamados “Media”. Si los abres te llevan a alguna pista del tipo de las que aparecen en la web de Niantic Project. Se supone que si los lees detenidamente (están en inglés, por supuesto), puedes encontrar un código de acceso. Si metes ese código de acceso en la caja que aparece abajo cuando te metes en el menú Ops, consigues algo de XM, AP y algunos ítems. Puedes compartir estos códigos con tus amigos y compañeros para que ellos también consigan recompensas.</p>
-
-<p>Los códigos podéis introducirlos a través de la app de vuestro smartphone, en la pestaña <span class="menusIngame">PASSCODE</span> del menu <span class="menusIngame">OPS</span>.</p>
-
-<h2>Cómo crear portales.</h2>
-
-</article>
-</body>
+		</article>
+	</body>

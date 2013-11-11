@@ -1,0 +1,124 @@
+
+	/*
+	  COLORES
+
+	  naranja: FF8947, rgba(255, 137, 71, 1); ;
+
+	  azul oscuro para fondo: #16494A, rgba(22, 73, 74, 1); ;
+
+	  azul clarito para textos y bordes: #10C8D3, rgba(16, 200, 74, 1); ;
+
+	  */
+
+	  body{
+	  	font-family: 'Coda', cursive;
+	  	background: black;
+	  	color: rgba(0, 255, 0, 1);
+	  	text-align: center;
+	  	/* max-width: 900px; */
+	  	margin: 10m auto;
+	  }
+
+	  header{
+	  	margin-bottom: 0;
+	  }
+
+	  h1{
+	  	padding: 10px 0 10px 0;
+	  	margin: 0 -10px 0 -10px;
+
+	  }
+
+	  .logo{
+	  	text-align: left;
+	  }
+
+	  .guiajuego{
+	  	font-size: 48px;
+	  	margin: -10px 0 -10px 0; // margen de separacion de guía del juego
+
+	  }
+
+	  h2{
+	  	background: rgba(22, 73, 74, 0.7);
+	  	color: rgba(0, 255, 0, 1);
+
+	  }
+
+	  .primerH2{
+	  	margin-left: -10px;
+	  	margin-right: -10px;
+	  }
+
+	  .botonMenu{
+	  	display: inline;
+	  }
+
+	  nav{
+	  	//background: rgba(18, 58, 58, 1);
+	  	border-radius: 0.2em;
+	  }
+
+	  a.boton{
+
+	  	display: inline-block;
+	  	text-decoration: none;
+	  	text-align: center;
+	  	width: 297px;
+	  	height: 25px;
+	  	border-top-left-radius: 10px;
+	  	border-top-right-radius: 10px;
+	  	background: rgba(18, 58, 58, 1);
+	  	color: rgba(0, 255, 0, 1);
+	  	transition-property: background;
+	  	transition-duration: 0.7s;
+	  }
+
+	  a.botonGuia{
+	  	display: inline-block;
+	  	text-decoration: none;
+	  	text-align: center;
+	  	width: 297px;
+	  	height: 25px;
+	  	border-top-left-radius: 10px;
+	  	border-top-right-radius: 10px;
+	  	background: rgba(22, 73, 74, 0.3);
+	  	color: rgba(0, 255, 0, 1);
+	  	transition-property: background;
+	  	transition-duration: 0.7s;
+	  }
+
+
+
+	  a.boton:hover, a.boton:focus{
+	  	background-color: rgba(0, 255, 0, 1);
+	  	color: black;
+	  }
+
+	  .botonescojones{
+	  	padding:0;
+	  }
+
+
+	  article{
+	  	/* max-width: 877px; */
+	  	padding: 10px;
+	  	margin: 0 auto;
+	  	margin-top: -16px;
+	  	background: rgba(22, 73, 74, 0.3);
+
+	  }
+
+	  p{
+	  	text-align: justify;
+	  	color: rgba(180, 255, 180, 1);
+	  }
+
+	  .menusIngame{
+	  	color: rgba(180, 255, 230, 1);
+	  }
+
+	  dfn{
+	  	color: rgba(180, 255, 230, 1);
+	  	font-style: bold;
+	  }
